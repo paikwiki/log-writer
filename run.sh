@@ -1,8 +1,5 @@
 #!/bin/bash
 
-eval "$(ssh-agent -s)"
-ssh-add /home/pi/.ssh/paikwiki_rsa
-
 SOURCE_FOLDER="/home/pi/codes/collector-n-lighter/logs/"
 TARGET_FOLDER="/home/pi/codes/log-writer/"
 
