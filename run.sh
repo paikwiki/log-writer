@@ -12,6 +12,6 @@ cp -r $SOURCE_FOLDER $TARGET_FOLDER
 
 git add .
 git commit -m "Add log $(date '+%Y%m%d-%H%M%S')"
-git push
+git push -f
 
 cd -
